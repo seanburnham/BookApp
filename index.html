@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Book App</title>
+  <!-- <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" /> -->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+  <link type="text/css" rel="stylesheet" href="./css/index.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-toggleable-md navbar-inverse">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">BookApp Logo</a>
+  
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Groups</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Settings</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle"  id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Account</a>
+                  <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item" href="#">Login</a>
+                    <a class="dropdown-item" href="#">Signup</a>
+                  </div>
+                </li>
+            </ul>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="row">
+
+          <!-- Left Side Column -->
+          <div class="col-md-3">
+            <div class="card mb-4 userInfo">
+                <img class="card-img-top" src="images/milky-way.jpg" alt="Card image cap">
+                <div class="card-body text-center">
+                  <img class="userPic" src="images/einstein.jpg" >
+                  <h6 style="margin-top: 1rem;">Albert Einstein</h6>
+                  <p class="card-text" style="margin-bottom: 1.5rem;">I wish i was a little bit taller, wish i was a baller, wish i had a girl… also.</p>
+                  <ul class="userBookInfo" style="padding:0;">
+                    <li class="bookStats" style="border-right: 1px solid #d4dbe0;">
+                        <a href="#">
+                            Books Read
+                            <h6 style="margin-bottom:0;">12M</h6>
+                        </a>
+                    </li>
+                    <li class="bookStats">
+                        <a href="#">
+                            Groups
+                            <h6 style="margin-bottom:0;">4</h6>
+                        </a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+            <div class="card currentReadingList ">
+              <div class="card-body">
+                <h6 class="text-center">Current Reading List</h6>
+                <ul style="padding-left: 0; list-style: none;">
+                  <li class="bookList">
+                    <div>
+                        <img class="bookThumbnail" src="images/Harry_Potter_and_the_Sorcerer's_Stone.jpg">
+                    </div>
+                    <span class="bookInfo">
+                        Harry Potter
+                    </span>
+                  </li>
+                  <li class="bookList">
+                      <div>
+                          <img class="bookThumbnail" src="images/1776.jpg">
+                      </div>
+                      <span class="bookInfo">
+                          1776
+                      </span>
+                  </li>
+                  <li class="bookList">
+                      <div>
+                          <img class="bookThumbnail" src="images/insignia.jpeg">
+                      </div>
+                      <span class="bookInfo">
+                          Insignia
+                      </span>
+                  </li>
+                  <li class="bookList">
+                      <div>
+                          <img class="bookThumbnail" src="images/hillbilly.jpg">
+                      </div>
+                      <span class="bookInfo">
+                          HillBilly Elegy
+                      </span>
+                  </li>
+                </ul>
+              </div> 
+            </div>
+          </div>
+
+          <!-- Middle Column -->
+          <div class="col-md-6">
+
+          </div>
+
+          <!-- Right Column -->
+          <div class="col-md-3">
+
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+
+
+<footer class="footer">
+  <div class="container text-center">
+    <span>
+        © 2018 Copyright: <a href="#"> BookApp </a>
+    </span>
+  </div>
+</footer>
+
+</html>
